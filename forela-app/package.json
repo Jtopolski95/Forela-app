@@ -1,4 +1,11 @@
 {
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
+{
   "name": "forela-app",
   "private": true,
   "version": "0.0.0",
