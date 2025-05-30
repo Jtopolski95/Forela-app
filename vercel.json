@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
   "installCommand": "npm install",
-  "framework": "vite",
+  "framework": "nextjs",
   "outputDirectory": "dist",
   "routes": [
     {
@@ -18,5 +18,6 @@
       "dest": "/index.html"
     }
   ],
-  "rootDirectory": "forela-app"
+  "rootDirectory": "forela-app",
+  "regions": ["iad1"]
 } 
